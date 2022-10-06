@@ -1,0 +1,47 @@
+#angie-logo {
+    border-radius: 20%;
+    max-width:10px;
+}
+
+.carousel {
+    height: 750px;
+}
+
+.carousel-item {
+    height: 750px;
+}
+
+#about {
+    height: 750px;
+}
+
+#angie-pic {
+    position: relative;
+    align-items: center;
+}
+
+#angie-pic img {
+    position: absolute;
+    width: 400px;
+    top:200px;
+    left:100px;
+    border-radius: 20px;
+}
+
+#angie-desc {
+    position: absolute;
+    top:200px;
+    right:100px;
+    background-color: #f3e5f6;
+    color: black;
+}
+
+#hobbies {
+    height: 750px;
+    background-color: #EBE7FE;
+    padding: 100px;
+}
+
+#hobbies-header {
+    text-align: center;
+}
