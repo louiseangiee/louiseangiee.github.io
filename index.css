@@ -5,36 +5,50 @@
 
 .carousel {
     height: 750px;
+    z-index: 0;
+    position: relative;
+    margin-left: auto;
+    margin-right:auto;
 }
 
 .carousel-item {
     height: 750px;
 }
 
+#big-hello {
+    z-index: 2;
+    position: absolute;
+    top: 200px;
+    
+    color:#EBE7FE;
+    
+}
+
 #about {
     height: 750px;
+    position: relative;
 }
 
-#angie-pic {
-    position: relative;
+#about .row {
+    display: flex;
+    justify-content: space-around;
     align-items: center;
+    height: 100%;
 }
+
+
 
 #angie-pic img {
-    position: absolute;
+    /* position: absolute; */
     width: 400px;
-    top:200px;
-    left:100px;
+    /* top:200px;
+    left:100px; */
     border-radius: 20px;
 }
 
-#angie-desc {
-    position: absolute;
-    top:200px;
-    right:100px;
+/* #angie-desc {
     background-color: #f3e5f6;
-    color: black;
-}
+} */
 
 #hobbies {
     height: 750px;
@@ -42,6 +56,71 @@
     padding: 100px;
 }
 
+#hobbies .row {
+    justify-content: space-around;
+    display: flex;
+
+}
+
 #hobbies-header {
     text-align: center;
+}
+
+.carousel-caption {
+    align-items: center;
+}
+
+th,td {
+    border: 1px solid lightgray;
+}
+
+.table-striped {
+    background-color: #EBE7FE;
+}
+
+.progress {
+    position: relative;
+    overflow: inherit;
+    height: 6px;
+    margin: 30px 0px 15px;
+    width: 100%;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.progress .progress-bar {
+    height: 6px;
+    background: #573aea;
+    border-radius: 10px;
+}
+
+.progress .progress-bar-title {
+    position: absolute;
+    left: 0;
+    top: -30px;
+    color: #818181;
+    font-size: 16px;
+}
+
+.progress .progress-bar-number {
+    position: absolute;
+    right: 0;
+    color: #888888;
+    top: -30px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.categories {
+    text-align: center;
+}
+
+#spotify {
+    height: 750px;
+    background-color: #b5aaed;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
